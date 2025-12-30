@@ -1,0 +1,52 @@
+2025-12-25 01:12:06,398 - INFO - ============================================================
+2025-12-25 01:12:06,399 - INFO - Démarrage de la tâche planifiée - 2025-12-25 01:12:06.399030
+2025-12-25 01:12:06,399 - INFO - ============================================================
+2025-12-25 01:12:09,650 - INFO - Scheduler started
+2025-12-25 01:12:09,651 - INFO - [SCHEDULER] APScheduler démarré automatiquement
+2025-12-25 01:12:09,667 - INFO - Added job "scheduled_task_6h" to job store "default"
+2025-12-25 01:12:09,668 - INFO - Added job "scheduled_task_18h" to job store "default"
+2025-12-25 01:12:09,669 - INFO - Added job "scheduled_task_midnight" to job store "default"
+2025-12-25 01:12:09,669 - INFO - Étape 1: Génération des prédictions pour les 7 prochains jours...
+2025-12-25 01:12:11,867 - INFO -   - Matchs analysés: 57
+2025-12-25 01:12:11,868 - INFO -   - Prédictions créées: 0
+2025-12-25 01:12:11,868 - INFO -   - Prédictions mises à jour: 57
+2025-12-25 01:12:11,868 - INFO -   - Erreurs: 0
+2025-12-25 01:12:11,868 - INFO - 
+Étape 2: Mise à jour des résultats des matchs terminés...
+2025-12-25 01:12:12,286 - INFO -   - Matchs vérifiés: 150
+2025-12-25 01:12:12,287 - INFO -   - Prédictions correctes: 66
+2025-12-25 01:12:12,287 - INFO -   - Prédictions incorrectes: 84
+2025-12-25 01:12:12,287 - INFO -   - Sans prédiction: 906
+2025-12-25 01:12:12,287 - INFO -   - Précision: 44.0%
+2025-12-25 01:12:12,287 - INFO - 
+Étape 3: Statistiques de précision (30 derniers jours)...
+2025-12-25 01:12:12,293 - INFO -   - Total prédictions: 150
+2025-12-25 01:12:12,293 - INFO -   - Précision globale: 44.0%
+2025-12-25 01:12:12,293 - INFO -   - Victoires domicile: 57.0% (49/86)
+2025-12-25 01:12:12,293 - INFO -   - Victoires extérieur: 26.6% (17/64)
+2025-12-25 01:12:12,293 - INFO -   - Matchs nuls: 0% (0/0)
+2025-12-25 01:12:12,293 - INFO - 
+Étape 4: Auto-évolution du modèle...
+2025-12-25 01:12:12,293 - INFO -   - Version actuelle: v7.4.0.1
+2025-12-25 01:12:12,293 - INFO -   - Doit ré-entraîner: True (Précision faible (43.3%))
+2025-12-25 01:12:12,499 - INFO -   - Données d'entraînement collectées: 150
+/home/ubuntu/football_app/venv/lib/python3.11/site-packages/xgboost/training.py:199: UserWarning: [01:12:12] WARNING: /workspace/src/learner.cc:790: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+2025-12-25 01:12:12,593 - INFO -   - Modèle ré-entraîné avec succès!
+2025-12-25 01:12:12,593 - INFO -   - Précision train: 100.0%
+2025-12-25 01:12:12,593 - INFO -   - Précision test: 43.3%
+2025-12-25 01:12:12,594 - INFO -   - Nouvelle version: v7.4.0.1
+2025-12-25 01:12:12,594 - INFO - 
+Étape 5: Apprentissage continu (analyse des erreurs)...
+2025-12-25 01:12:13,074 - INFO -   - Matchs analysés: 150
+2025-12-25 01:12:13,074 - INFO -   - Corrections appliquées: 2
+2025-12-25 01:12:13,074 - INFO -   - Précision estimée après corrections: 51.0%
+2025-12-25 01:12:13,074 - INFO -     [draw_detection] draw_boost: 15 → 15, threshold: 22 → 22
+2025-12-25 01:12:13,074 - INFO -     [away_prediction] confidence_threshold_away: 55 → 55
+2025-12-25 01:12:13,074 - INFO - 
+============================================================
+2025-12-25 01:12:13,074 - INFO - Tâche terminée avec succès!
+2025-12-25 01:12:13,074 - INFO - ============================================================
+Cache des buteurs chargé: 120 joueurs
