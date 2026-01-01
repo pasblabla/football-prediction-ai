@@ -1,0 +1,1085 @@
+{
+  "fc utrecht_psv": {
+    "timestamp": "2025-12-21T06:56:22.429086",
+    "data": {
+      "home_team": "FC Utrecht",
+      "away_team": "PSV",
+      "total_matches": 6,
+      "home_wins": 2,
+      "away_wins": 2,
+      "draws": 2,
+      "home_goals": 7,
+      "away_goals": 9,
+      "avg_goals_per_match": 2.7,
+      "btts_percentage": 66.7,
+      "over_2_5_percentage": 66.7,
+      "last_5_matches": [
+        {
+          "date": "19/03/2024",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "31/01/2024",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "27/12/2022",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "11/05/2022",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "23/11/2021",
+          "home_team": "FC Utrecht",
+          "away_team": "PSV",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "draw"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "19/03/2024",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "31/01/2024",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "27/12/2022",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "11/05/2022",
+          "home_team": "PSV",
+          "away_team": "FC Utrecht",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "23/11/2021",
+          "home_team": "FC Utrecht",
+          "away_team": "PSV",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "19/06/2021",
+          "home_team": "FC Utrecht",
+          "away_team": "PSV",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Championnat",
+          "result": "away"
+        }
+      ],
+      "summary": "Les confrontations sont \u00e9quilibr\u00e9es entre ces deux \u00e9quipes. Beaucoup de matchs nuls (2) dans cette rivalit\u00e9."
+    }
+  },
+  "blackburn rovers fc_middlesbrough fc": {
+    "timestamp": "2025-12-21T12:49:55.072484",
+    "data": {
+      "home_team": "Middlesbrough FC",
+      "away_team": "Blackburn Rovers FC",
+      "total_matches": 13,
+      "home_wins": 4,
+      "away_wins": 5,
+      "draws": 4,
+      "home_goals": 18,
+      "away_goals": 22,
+      "avg_goals_per_match": 3.1,
+      "btts_percentage": 69.2,
+      "over_2_5_percentage": 53.8,
+      "last_5_matches": [
+        {
+          "date": "21/07/2025",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "31/12/2024",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 2,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "17/09/2024",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 3,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "05/08/2024",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "draw"
+        },
+        {
+          "date": "14/09/2023",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "away"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "21/07/2025",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "31/12/2024",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 2,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "17/09/2024",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 3,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "05/08/2024",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "draw"
+        },
+        {
+          "date": "14/09/2023",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "30/06/2023",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 0,
+          "away_score": 0,
+          "competition": "Championnat",
+          "result": "draw"
+        },
+        {
+          "date": "08/04/2023",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 4,
+          "away_score": 2,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "05/03/2023",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe de la Ligue",
+          "result": "home"
+        },
+        {
+          "date": "21/12/2022",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 0,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "01/07/2022",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Coupe de la Ligue",
+          "result": "draw"
+        },
+        {
+          "date": "13/04/2022",
+          "home_team": "Blackburn Rovers FC",
+          "away_team": "Middlesbrough FC",
+          "home_score": 4,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "20/03/2022",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "18/07/2021",
+          "home_team": "Middlesbrough FC",
+          "away_team": "Blackburn Rovers FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "away"
+        }
+      ],
+      "summary": "Les confrontations sont \u00e9quilibr\u00e9es entre ces deux \u00e9quipes."
+    }
+  },
+  "fc alverca_fc porto": {
+    "timestamp": "2025-12-21T12:50:25.464463",
+    "data": {
+      "home_team": "FC Alverca",
+      "away_team": "FC Porto",
+      "total_matches": 12,
+      "home_wins": 7,
+      "away_wins": 4,
+      "draws": 1,
+      "home_goals": 25,
+      "away_goals": 19,
+      "avg_goals_per_match": 3.7,
+      "btts_percentage": 75.0,
+      "over_2_5_percentage": 83.3,
+      "last_5_matches": [
+        {
+          "date": "13/05/2025",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "19/04/2025",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 1,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "17/07/2024",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 4,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "04/03/2024",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 1,
+          "away_score": 3,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "14/02/2024",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 3,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "draw"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "13/05/2025",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "19/04/2025",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 1,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "17/07/2024",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 4,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "04/03/2024",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 1,
+          "away_score": 3,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "14/02/2024",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 3,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "draw"
+        },
+        {
+          "date": "08/12/2023",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "30/09/2023",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "31/07/2023",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "06/03/2023",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "11/09/2022",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "23/07/2022",
+          "home_team": "FC Porto",
+          "away_team": "FC Alverca",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "08/04/2021",
+          "home_team": "FC Alverca",
+          "away_team": "FC Porto",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Coupe",
+          "result": "home"
+        }
+      ],
+      "summary": "FC Alverca domine historiquement cette confrontation avec 7 victoires."
+    }
+  },
+  "aston villa fc_chelsea fc": {
+    "timestamp": "2025-12-24T05:28:34.028061",
+    "data": {
+      "home_team": "Chelsea FC",
+      "away_team": "Aston Villa FC",
+      "total_matches": 6,
+      "home_wins": 3,
+      "away_wins": 2,
+      "draws": 1,
+      "home_goals": 13,
+      "away_goals": 7,
+      "avg_goals_per_match": 3.3,
+      "btts_percentage": 50.0,
+      "over_2_5_percentage": 83.3,
+      "last_5_matches": [
+        {
+          "date": "30/06/2025",
+          "home_team": "Aston Villa FC",
+          "away_team": "Chelsea FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "draw"
+        },
+        {
+          "date": "08/03/2025",
+          "home_team": "Aston Villa FC",
+          "away_team": "Chelsea FC",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Coupe de la Ligue",
+          "result": "home"
+        },
+        {
+          "date": "25/11/2023",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 2,
+          "away_score": 4,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "10/08/2023",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "22/10/2021",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "home"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "30/06/2025",
+          "home_team": "Aston Villa FC",
+          "away_team": "Chelsea FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "draw"
+        },
+        {
+          "date": "08/03/2025",
+          "home_team": "Aston Villa FC",
+          "away_team": "Chelsea FC",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Coupe de la Ligue",
+          "result": "home"
+        },
+        {
+          "date": "25/11/2023",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 2,
+          "away_score": 4,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "10/08/2023",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "22/10/2021",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "27/09/2021",
+          "home_team": "Chelsea FC",
+          "away_team": "Aston Villa FC",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Coupe",
+          "result": "home"
+        }
+      ],
+      "summary": "Les confrontations sont \u00e9quilibr\u00e9es entre ces deux \u00e9quipes."
+    }
+  },
+  "cagliari calcio_torino fc": {
+    "timestamp": "2025-12-24T05:28:43.638837",
+    "data": {
+      "home_team": "Torino FC",
+      "away_team": "Cagliari Calcio",
+      "total_matches": 11,
+      "home_wins": 3,
+      "away_wins": 5,
+      "draws": 3,
+      "home_goals": 15,
+      "away_goals": 20,
+      "avg_goals_per_match": 3.2,
+      "btts_percentage": 72.7,
+      "over_2_5_percentage": 72.7,
+      "last_5_matches": [
+        {
+          "date": "09/11/2025",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "01/09/2024",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "05/04/2024",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Coupe de la Ligue",
+          "result": "home"
+        },
+        {
+          "date": "26/07/2023",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 0,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "03/03/2023",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "away"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "09/11/2025",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "01/09/2024",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "05/04/2024",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Coupe de la Ligue",
+          "result": "home"
+        },
+        {
+          "date": "26/07/2023",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 0,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "03/03/2023",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "05/09/2022",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "06/07/2022",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "15/04/2022",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "04/03/2022",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "10/09/2021",
+          "home_team": "Cagliari Calcio",
+          "away_team": "Torino FC",
+          "home_score": 4,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "14/02/2021",
+          "home_team": "Torino FC",
+          "away_team": "Cagliari Calcio",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "draw"
+        }
+      ],
+      "summary": "Les confrontations sont \u00e9quilibr\u00e9es entre ces deux \u00e9quipes."
+    }
+  },
+  "arsenal fc_brighton & hove albion fc": {
+    "timestamp": "2025-12-24T10:58:44.383960",
+    "data": {
+      "home_team": "Arsenal FC",
+      "away_team": "Brighton & Hove Albion FC",
+      "total_matches": 6,
+      "home_wins": 2,
+      "away_wins": 3,
+      "draws": 1,
+      "home_goals": 11,
+      "away_goals": 13,
+      "avg_goals_per_match": 4.0,
+      "btts_percentage": 83.3,
+      "over_2_5_percentage": 83.3,
+      "last_5_matches": [
+        {
+          "date": "30/01/2025",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 2,
+          "away_score": 4,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "10/03/2024",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "14/05/2023",
+          "home_team": "Brighton & Hove Albion FC",
+          "away_team": "Arsenal FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "16/09/2022",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "04/05/2022",
+          "home_team": "Brighton & Hove Albion FC",
+          "away_team": "Arsenal FC",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "home"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "30/01/2025",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 2,
+          "away_score": 4,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "10/03/2024",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "14/05/2023",
+          "home_team": "Brighton & Hove Albion FC",
+          "away_team": "Arsenal FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Supercoupe",
+          "result": "home"
+        },
+        {
+          "date": "16/09/2022",
+          "home_team": "Arsenal FC",
+          "away_team": "Brighton & Hove Albion FC",
+          "home_score": 2,
+          "away_score": 3,
+          "competition": "Championnat",
+          "result": "away"
+        },
+        {
+          "date": "04/05/2022",
+          "home_team": "Brighton & Hove Albion FC",
+          "away_team": "Arsenal FC",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "25/06/2021",
+          "home_team": "Brighton & Hove Albion FC",
+          "away_team": "Arsenal FC",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Championnat",
+          "result": "draw"
+        }
+      ],
+      "summary": "Les confrontations sont \u00e9quilibr\u00e9es entre ces deux \u00e9quipes."
+    }
+  },
+  "manchester united fc_newcastle united fc": {
+    "timestamp": "2025-12-24T11:58:38.157116",
+    "data": {
+      "home_team": "Manchester United FC",
+      "away_team": "Newcastle United FC",
+      "total_matches": 15,
+      "home_wins": 4,
+      "away_wins": 8,
+      "draws": 3,
+      "home_goals": 21,
+      "away_goals": 24,
+      "avg_goals_per_match": 3.0,
+      "btts_percentage": 66.7,
+      "over_2_5_percentage": 73.3,
+      "last_5_matches": [
+        {
+          "date": "06/08/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "15/07/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "28/02/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "20/07/2024",
+          "home_team": "Newcastle United FC",
+          "away_team": "Manchester United FC",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "22/12/2023",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        }
+      ],
+      "all_matches": [
+        {
+          "date": "06/08/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "15/07/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "28/02/2025",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 0,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "20/07/2024",
+          "home_team": "Newcastle United FC",
+          "away_team": "Manchester United FC",
+          "home_score": 2,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "22/12/2023",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 3,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "11/11/2023",
+          "home_team": "Newcastle United FC",
+          "away_team": "Manchester United FC",
+          "home_score": 0,
+          "away_score": 3,
+          "competition": "Coupe",
+          "result": "home"
+        },
+        {
+          "date": "03/11/2023",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 2,
+          "away_score": 2,
+          "competition": "Coupe",
+          "result": "draw"
+        },
+        {
+          "date": "25/04/2023",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "24/03/2023",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 3,
+          "away_score": 0,
+          "competition": "Championnat",
+          "result": "home"
+        },
+        {
+          "date": "01/08/2022",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 3,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "10/07/2022",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 2,
+          "away_score": 4,
+          "competition": "Coupe de la Ligue",
+          "result": "away"
+        },
+        {
+          "date": "14/05/2022",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Supercoupe",
+          "result": "draw"
+        },
+        {
+          "date": "18/04/2022",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 1,
+          "away_score": 2,
+          "competition": "Supercoupe",
+          "result": "away"
+        },
+        {
+          "date": "29/08/2021",
+          "home_team": "Manchester United FC",
+          "away_team": "Newcastle United FC",
+          "home_score": 0,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "away"
+        },
+        {
+          "date": "08/05/2021",
+          "home_team": "Newcastle United FC",
+          "away_team": "Manchester United FC",
+          "home_score": 1,
+          "away_score": 1,
+          "competition": "Coupe",
+          "result": "draw"
+        }
+      ],
+      "summary": "Newcastle United FC a l'avantage historique avec 8 victoires."
+    }
+  }
+}

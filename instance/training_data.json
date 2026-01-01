@@ -1,0 +1,7 @@
+{
+  "training_samples": 400,
+  "test_samples": 100,
+  "train_accuracy": 0.9225,
+  "test_accuracy": 0.41,
+  "last_training": "2025-12-25T18:00:01.689328"
+}

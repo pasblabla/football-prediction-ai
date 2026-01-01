@@ -8,3 +8,9 @@ gunicorn
 Flask-APScheduler>=1.13.1
 pytz>=2024.1
 psycopg2-binary
+beautifulsoup4
+lxml
+pandas
+numpy
+scikit-learn
+xgboost

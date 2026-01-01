@@ -1,0 +1,173 @@
+{
+  "sessions": [
+    {
+      "date": "2025-12-24T06:19:12.562136",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 0.0 \u2192 5.0, threshold: 30 \u2192 27"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 45 \u2192 50"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-24T17:42:03.765925",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 5.0 \u2192 10.0, threshold: 27 \u2192 24"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 50 \u2192 55"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-24T18:00:01.631279",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 10.0 \u2192 15.0, threshold: 24 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-24T18:02:11.770817",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 15.0 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-24T18:05:44.948338",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 15 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-25T01:12:13.073692",
+      "matches_analyzed": 150,
+      "accuracy_before": 44.0,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "32 matchs nuls manqu\u00e9s (21.3%)",
+          "action": "draw_boost: 15 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 26.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-25T08:05:02.288682",
+      "matches_analyzed": 1056,
+      "accuracy_before": 41.6,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "230 matchs nuls manqu\u00e9s (21.8%)",
+          "action": "draw_boost: 15 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 34.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        },
+        {
+          "type": "home_prediction",
+          "reason": "Pr\u00e9cision domicile faible: 48.0%",
+          "action": "confidence_threshold_home: 55 \u2192 58"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-25T08:05:20.454304",
+      "matches_analyzed": 1056,
+      "accuracy_before": 41.6,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "230 matchs nuls manqu\u00e9s (21.8%)",
+          "action": "draw_boost: 15 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 34.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        },
+        {
+          "type": "home_prediction",
+          "reason": "Pr\u00e9cision domicile faible: 48.0%",
+          "action": "confidence_threshold_home: 58 \u2192 61"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-25T18:00:02.171620",
+      "matches_analyzed": 1056,
+      "accuracy_before": 41.6,
+      "corrections_applied": [
+        {
+          "type": "draw_detection",
+          "reason": "230 matchs nuls manqu\u00e9s (21.8%)",
+          "action": "draw_boost: 15 \u2192 15, threshold: 22 \u2192 22"
+        },
+        {
+          "type": "away_prediction",
+          "reason": "Pr\u00e9cision ext\u00e9rieur faible: 34.6%",
+          "action": "confidence_threshold_away: 55 \u2192 55"
+        },
+        {
+          "type": "home_prediction",
+          "reason": "Pr\u00e9cision domicile faible: 48.0%",
+          "action": "confidence_threshold_home: 61 \u2192 64"
+        }
+      ]
+    }
+  ],
+  "total_improvements": 0
+}

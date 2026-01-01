@@ -1,0 +1,45 @@
+{
+  "home_advantage": 0.23780303030303027,
+  "recent_form_weight": 0.25,
+  "head_to_head_weight": 0.15,
+  "goals_scored_weight": 0.2,
+  "goals_conceded_weight": 0.15,
+  "league_position_weight": 0.1,
+  "absence_impact_weight": 0.2,
+  "key_player_weight": 0.15,
+  "fatigue_weight": 0.1,
+  "motivation_weight": 0.1,
+  "league_adjustments": {
+    "Premier League": {
+      "home_boost": 0.05,
+      "goals_factor": 1.1
+    },
+    "Bundesliga": {
+      "home_boost": 0.08,
+      "goals_factor": 1.2
+    },
+    "Serie A": {
+      "home_boost": 0.06,
+      "goals_factor": 0.95
+    },
+    "LaLiga": {
+      "home_boost": 0.04,
+      "goals_factor": 1.0
+    },
+    "Ligue 1": {
+      "home_boost": 0.07,
+      "goals_factor": 1.05
+    }
+  },
+  "total_predictions": 1506,
+  "correct_predictions": 703,
+  "accuracy": 46.679946879150066,
+  "last_update": "2025-12-21T05:45:39.221365",
+  "learned_patterns": {
+    "home_win_rate": 0.4678030303030303,
+    "draw_rate": 0.2481060606060606,
+    "away_win_rate": 0.2840909090909091,
+    "btts_rate": 0.5454545454545454,
+    "over_2_5_rate": 0.5331439393939394
+  }
+}
