@@ -15,9 +15,17 @@ app = Flask(__name__, static_folder='static', static_url_path='')
 CORS(app)
 
 # Configuration
-# Utiliser DATABASE_URL pour PostgreSQL en production, ou SQLite en local
-# Format PostgreSQL: postgresql://user:password@host:port/dbname
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///instance/site.db')
+# Utiliser SQLite par défaut (plus stable sur Render free tier)
+import os
+db_url = os.getenv('DATABASE_URL')
+if db_url:
+    # Convertir postgresql:// en postgresql+psycopg2:// pour SQLAlchemy
+    if db_url.startswith('postgresql://'):
+        db_url = db_url.replace('postgresql://', 'postgresql+psycopg2://', 1)
+    app.config['SQLALCHEMY_DATABASE_URI'] = db_url
+else:
+    # Utiliser SQLite en local et en production (plus stable)
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/site.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'super-secret-key')
 
