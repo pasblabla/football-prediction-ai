@@ -36,6 +36,14 @@ app.config['SCHEDULER_TIMEZONE'] = 'Europe/Paris'
 # Initialiser la base de données
 db.init_app(app)
 
+# Créer les tables automatiquement au démarrage
+with app.app_context():
+    try:
+        db.create_all()
+        logger.info("[DATABASE] Tables créées ou déjà existantes")
+    except Exception as e:
+        logger.error(f"[DATABASE] Erreur lors de la création des tables: {e}")
+
 # Initialiser le scheduler
 scheduler = APScheduler()
 scheduler.init_app(app)
