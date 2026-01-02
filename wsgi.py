@@ -42,22 +42,7 @@ with app.app_context():
         db.create_all()
         logger.info("[DATABASE] Tables créées ou déjà existantes")
         
-        # Initialiser les données de base si la base est vide
-        from src.models.football import League
-        if League.query.count() == 0:
-            logger.info("[DATABASE] Base vide, initialisation...")
-            leagues_data = [
-                {"name": "Premier League", "country": "England", "code": "PL", "season": 2025},
-                {"name": "La Liga", "country": "Spain", "code": "LL", "season": 2025},
-                {"name": "Serie A", "country": "Italy", "code": "SA", "season": 2025},
-                {"name": "Ligue 1", "country": "France", "code": "L1", "season": 2025},
-                {"name": "Bundesliga", "country": "Germany", "code": "BL", "season": 2025},
-            ]
-            for league_data in leagues_data:
-                league = League(**league_data)
-                db.session.add(league)
-            db.session.commit()
-            logger.info("[DATABASE] Ligues initialisées")
+
     except Exception as e:
         logger.error(f"[DATABASE] Erreur: {e}")
 
