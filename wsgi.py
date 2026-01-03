@@ -42,6 +42,26 @@ with app.app_context():
         db.create_all()
         logger.info("[DATABASE] Tables créées ou déjà existantes")
         
+        # Charger les données depuis le dump SQL si la base est vide
+        from src.models.football import League
+        if League.query.count() == 0:
+            logger.info("[DATABASE] Base vide, chargement des données...")
+            try:
+                import os
+                sql_file = os.path.join(os.path.dirname(__file__), 'football_data_complete.sql')
+                if os.path.exists(sql_file):
+                    with open(sql_file, 'r') as f:
+                        sql_statements = f.read()
+                        for statement in sql_statements.split(';'):
+                            if statement.strip():
+                                db.session.execute(statement)
+                        db.session.commit()
+                        logger.info("[DATABASE] Données chargées")
+                else:
+                    logger.warning("[DATABASE] Fichier SQL non trouvé")
+            except Exception as e:
+                logger.error(f"[DATABASE] Erreur chargement: {e}")
+                db.session.rollback()
 
     except Exception as e:
         logger.error(f"[DATABASE] Erreur: {e}")
