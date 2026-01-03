@@ -36,56 +36,18 @@ app.config['SCHEDULER_TIMEZONE'] = 'Europe/Paris'
 # Initialiser la base de données
 db.init_app(app)
 
+# Initialiser la base de données au démarrage
+try:
+    from init_db import init_database
+    init_database()
+except Exception as e:
+    logger.warning(f"[DATABASE] Impossible de copier la base: {e}")
+
 # Créer les tables automatiquement au démarrage
 with app.app_context():
     try:
         db.create_all()
         logger.info("[DATABASE] Tables créées ou déjà existantes")
-        
-        # Charger les données depuis le fichier JSON si la base est vide
-        from src.models.football import League, Team, Match, Prediction
-        if League.query.count() == 0:
-            logger.info("[DATABASE] Base vide, chargement des données...")
-            try:
-                import os, json
-                json_file = os.path.join(os.path.dirname(__file__), 'football_data.json')
-                if os.path.exists(json_file):
-                    with open(json_file, 'r') as f:
-                        data = json.load(f)
-                    
-                    # Charger les ligues
-                    for league_data in data.get('league', []):
-                        league = League(**league_data)
-                        db.session.add(league)
-                    db.session.commit()
-                    logger.info(f"[DATABASE] {len(data.get('league', []))} ligues chargées")
-                    
-                    # Charger les équipes
-                    for team_data in data.get('team', []):
-                        team = Team(**team_data)
-                        db.session.add(team)
-                    db.session.commit()
-                    logger.info(f"[DATABASE] {len(data.get('team', []))} équipes chargées")
-                    
-                    # Charger les matchs
-                    for match_data in data.get('match', []):
-                        match = Match(**match_data)
-                        db.session.add(match)
-                    db.session.commit()
-                    logger.info(f"[DATABASE] {len(data.get('match', []))} matchs chargés")
-                    
-                    # Charger les prédictions
-                    for pred_data in data.get('prediction', []):
-                        pred = Prediction(**pred_data)
-                        db.session.add(pred)
-                    db.session.commit()
-                    logger.info(f"[DATABASE] {len(data.get('prediction', []))} prédictions chargées")
-                else:
-                    logger.warning("[DATABASE] Fichier JSON non trouvé")
-            except Exception as e:
-                logger.error(f"[DATABASE] Erreur chargement: {e}")
-                db.session.rollback()
-
     except Exception as e:
         logger.error(f"[DATABASE] Erreur: {e}")
 
