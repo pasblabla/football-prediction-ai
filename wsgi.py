@@ -46,7 +46,8 @@ with app.app_context():
         if League.query.count() == 0:
             logger.info("[DATABASE] Chargement des données initiales...")
             try:
-                from initial_data import INITIAL_DATA
+                from load_initial_data import load_initial_data
+                INITIAL_DATA = load_initial_data()
                 
                 # Charger les ligues
                 for league_data in INITIAL_DATA.get('leagues', []):
